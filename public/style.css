@@ -1,0 +1,103 @@
+/* Минималистичный, адаптивный стиль резюме */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Calibri", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 50px;
+  background: #ffffff;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+
+.role {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0 0 10px 0;
+  color: #2b2b2b;
+}
+
+.contacts {
+  font-size: 13.5px;
+  margin: 0;
+  color: #333333;
+}
+
+section {
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 4px;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 12px 0 2px 0;
+}
+
+.meta {
+  font-size: 13.5px;
+  font-style: italic;
+  color: #444444;
+  margin: 0 0 4px 0;
+}
+
+p {
+  margin: 0 0 8px 0;
+}
+
+ul {
+  margin: 0 0 6px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+  body {
+    padding: 24px 20px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .contacts {
+    font-size: 12.5px;
+  }
+
+  .contacts br {
+    display: none;
+  }
+}
