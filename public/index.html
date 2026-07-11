@@ -3,36 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Павел Сытов — Резюме</title>
+<title>Сытов П.О. — Резюме</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Сытов Павел Олегович</h1>
-    <p class="role">QA Manual Engineer — Junior / Стажировка</p>
-    <p class="contacts">
-      +375 33 901-16-51 &nbsp;|&nbsp;
-      p.o.sytov@students.psu.by &nbsp;|&nbsp;
-      Полоцк, готов к релокации &nbsp;|&nbsp;
-      <a href="https://linkedin.com/in/павел-сытов-11546841a">LinkedIn</a> &nbsp;|&nbsp;
-      <a href="https://github.com/stploch">GitHub</a>
-    </p>
+  <header class="header-flex">
+    <div class="photo"><img src="photo.jpg" alt="Фотография"></div>
+    <div class="header-text">
+      <h1>Сытов Павел Олегович</h1>
+      <p class="role">QA Manual Engineer — Junior / Стажировка</p>
+      <p class="contacts">
+        +375 33 901-16-51 &nbsp;|&nbsp;
+        p.o.sytov@students.psu.by &nbsp;|&nbsp;
+        г. Полоцк, готов к релокации &nbsp;|&nbsp;
+        <a href="https://linkedin.com/in/павел-сытов-11546841a">LinkedIn</a> &nbsp;|&nbsp;
+        <a href="https://github.com/stploch">GitHub</a>
+      </p>
+    </div>
   </header>
 
   <section>
     <h2>Summary</h2>
-    <p>Студент первого курса по направлению «Программная инженерия». Владею тест-дизайном, написанием тест-кейсов и баг-репортов, умею читать код и находить в нём ошибки. Имею практический опыт самостоятельной разработки проектов с реальными пользователями.</p>
+    <p>Студент первого курса, специальность «Программная инженерия».</p>
+	<p>Владею тест-дизайном, написанием тест-кейсов и баг-репортов, умею читать код и находить в нём ошибки. Имею практический опыт самостоятельной разработки проектов с реальными пользователями.</p>
   </section>
 
   <section>
     <h2>Skills</h2>
     <ul>
-      <li>Языки программирования: C++, Python, PHP</li>
-      <li>Инструменты и библиотеки: Git, SQLite, MySQL, pyTelegramBotAPI, HTML, CSS, JavaScript, Construct 2</li>
-      <li>Основы информатики: структуры данных (связные списки, стеки, очереди, деки), алгоритмы, дискретная математика, теория графов, булева алгебра, линейная алгебра, математический анализ, ассемблер</li>
-      <li>Практики программной инженерии: системы контроля версий (Git), моделирование ПО (IDEF0, DFD, IDEF3), стандарты документирования IEEE</li>
-      <li>Офисные инструменты: Microsoft Word, Microsoft Excel</li>
+      <li>Языки программирования: C++, Python, PHP, Ассемблер;</li>
+      <li>Инструменты и библиотеки: Git, SQLite, MySQL, pyTelegramBotAPI, HTML, CSS, JavaScript, Construct 2, Visual Studio 2026, PyCharm;</li>
+      <li>Владею базовыми навыками программирования на языках C++, Python, PHP, Ассемблер; есть понимание основ графов и булевой алгебры, математического анализа, основ работы с системами контроля версий Git, умение оперировать с схемами IDEF0, IDEF3, DFD; разбираюсь в стандартах IEEE;</li>
+      <li>Оперирую с офисными инструментами: Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Microsoft Access, Microsoft Visio, Microsoft Outlook.</li>
+      <li>Soft Skills: самостоятельная разработка проектов «под ключ», работа с документацией, внимательность к деталям, высокий уровень ответственности.</li>
     </ul>
   </section>
 
@@ -42,11 +46,20 @@
     <h3>Telegram-бот автоматической рассылки расписания</h3>
     <p class="meta">Python · python-telegram-bot · SQLite · 02/2026 – настоящее время</p>
     <ul>
-      <li>Разработал бота с нуля для автоматической рассылки расписания занятий студентам</li>
+      <li>Разработал бота с нуля для автоматической рассылки расписания занятий студентам потока 25-ИТ</li>
       <li>Реализовал рассылку по группам и подгруппам, функцию просмотра расписания на конкретный день</li>
       <li>Более 60 активных пользователей, высокая востребованность среди студентов университета</li>
-      <li>Ссылка: <a href="https://t.me/psu25it2bot">@psu25it2bot</a></li>
+      <li>Ссылка: <a href="https://t.me/psu25it2bot">Telegram</a></li>
     </ul>
+
+	 <h3>Консольная программа «Заработная плата»</h3>
+		<p class="meta">C++ · Visual Studio 2022 · 02/2026 – 05/2026</p>
+		<ul>
+		  <li>Программа, реализованная в рамках курсовой работы по дисциплине «Основы алгоритмизации и программирования»</li>
+		  <li>Позволяет рассчитывать заработную плату, сверхурочные для работника</li>
+		  <li>Поддерживает фильтрацию, поиск, сортировку, перезапись или дозапись сохранений и пр. Имеет интуитивно понятный интерфейс.</li>
+		  <li>Ссылка: <a href="https://github.com/stploch/salary_cpp">GitHub</a></li>
+		</ul>
 
     <h3>Sumgo — аркадный раннер</h3>
     <p class="meta">HTML · CSS · JavaScript · PHP · MySQL · Construct 2 · 10/2020 – 07/2021</p>
@@ -54,6 +67,7 @@
       <li>Разработал веб-игру полностью самостоятельно: игровой дизайн, логика, клиентская и серверная часть</li>
       <li>Реализовал систему прогрессивного усложнения, Battle Pass, систему рекордов на сервере</li>
       <li>Настроил сохранение прогресса игрока через собственный backend</li>
+	  <li>Ссылка: <a href="https://gamejolt.com/games/sumgo/855619">GameJolt</a></li>
     </ul>
 
     <h3>DinoLands — MMORPG</h3>

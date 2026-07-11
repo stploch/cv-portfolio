@@ -1,5 +1,3 @@
-/* Минималистичный, адаптивный стиль резюме */
-
 * {
   box-sizing: border-box;
 }
@@ -17,6 +15,31 @@ body {
 
 header {
   margin-bottom: 20px;
+}
+
+.header-flex {
+  display: table;
+  width: 100%;
+}
+
+.photo {
+  display: table-cell;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.header-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 24px;
 }
 
 h1 {
@@ -79,7 +102,7 @@ li {
 }
 
 /* Адаптивность для мобильных устройств */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   body {
     padding: 24px 20px;
     font-size: 15px;
@@ -99,5 +122,24 @@ li {
 
   .contacts br {
     display: none;
+  }
+
+  .header-flex {
+    display: block;
+  }
+
+  .photo {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .photo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .header-text {
+    display: block;
+    padding-left: 0;
   }
 }
